@@ -1,0 +1,169 @@
+/* responsive tablet device */
+@media(max-width: 991px){
+	.offcanvas{background: #15141A}
+	.btn-xmark{background: transparent; border: none; font-size: 30px; color: #fff;}
+	.navbar-toggler span{color: #fff; border: none; box-shadow: none; font-size: 28px;}
+	.collapse:not(.show){display: block; padding: 30px;}
+
+	.navbar-nav{text-align: left; margin-top: 30px;}
+	.nav-link{margin-bottom: 15px; display: inline-block;}
+
+
+	.banner-phone {width: 36%;}/*
+	.navbar{padding: 10px 0;}
+	header .col-lg-12, .container-fluid, .banner-content{padding: 0}*/
+	.banner-content h1 {font-size: 34px; font-weight: 700;}
+
+	.feature-content{margin-bottom: 30px;}
+	.feature-section {padding: 80px 0 50px;}
+
+	.feature-section .heading span {margin-bottom: 14%;}
+
+	.about-section img {width: 50%; margin: 0 auto; display: block;}
+	.about-section {padding: 60px 0 0;}
+
+	.abouts-section {padding: 30px 0 50px;}
+	.abouts-section img {width: 70%; margin: 0 auto; display: block;}
+
+	.slide-item p {font-size: 18px;}
+
+	.ad-section {padding: 30px 0 40px;}
+	.ad-section h3 {text-align: center; margin-bottom: 30px;}
+	.ad-section .btn-right {text-align: center;}
+
+	.price-table {margin-bottom: 25px;}
+	.pricing-section {padding: 60px 0 30px;}
+
+	.form-box {position: relative; width: 70%;}
+	.contact-section p {font-size: 16px;}
+	.contact-section .heading span {margin-bottom: 12%;}
+	.contact-section {padding-bottom: 0px;}
+
+	footer p, .social-icon {text-align: center;}
+
+
+
+}
+
+
+/* Responsive Media CSS */
+@media(max-width: 767px){
+	
+
+
+
+
+
+
+
+
+
+
+	.banner-content h1 {font-size: 38px;}
+	.banner-phone{position: static; width: 50%; margin: 50px auto 30px auto;}
+	.banner-content{text-align: center; padding-bottom: 50px;}
+	.height {flex-direction: column-reverse;}
+	.navbar-nav{text-align: center; margin-top: 30px;}
+	.nav-link{margin-bottom: 15px; display: inline-block;}
+	.banner-content p {margin-right: 0px;}
+	.hide-dsk{display: block;}
+	.hide-mb{display: none;}
+
+	.feature-section{padding: 40px 0;}
+	.feature-content {margin-bottom: 20px;}
+	.feature-section span, .pricing-section span{margin-bottom: 80px;}
+	.feature-content .fa-solid, .feature-content .fa-regular {width: 86px; height: 86px; line-height: 86px;}
+
+	.about-section img {width: 60%; margin-left: 90px;}
+	.abouts-section {padding: 20px 0 40px 0;}
+
+	.ad-section h3 {text-align: center; margin-bottom: 30px; font-size: 24px;}
+	.ad-section .btn-right {text-align: center;}
+	.ad-section {padding: 30px 0 40px;}
+
+	.pricing-section{padding: 50px 0;}
+	.price-table {margin-bottom: 30px;}
+
+	.contact-section{padding: 40px 0; padding-bottom: 0px;}
+
+	.contact-section p {font-size: 15px;}
+	.form-box{width: 80%; padding: 40px 30px;}
+	.text-center {margin-top: 22px;}
+
+	.map-section iframe {height: 300px;}
+
+	footer{padding: 10px 0;}
+	footer p{text-align: center;}
+	.social-icon ul{text-align: center;}
+}
+@media(max-width: 575px){
+
+
+
+
+
+
+	.banner-content {padding-bottom: 60px;}
+	.banner-content h1 {font-size: 44px; font-weight: 600;}
+	.heading span {margin-bottom: 12%;}
+	.about-section {padding: 40px 0 0 0;}
+	.about-section img {width: 100%; margin-left: 0px;}
+	.about-images{width: 50%; margin: 0 auto 10px;}
+
+	.about-details{padding: 20px 10px;}
+	
+	.testimonial-section{padding: 40px 0;}
+
+	.ad-section {padding: 30px 0 40px;}
+
+	.slide-item p {text-align: center; font-size: 16px;}
+	.client {justify-content: center; margin-top: 36px}
+	.client-details p{text-align: start;}
+
+	.form-box {width: 90%;}
+
+	.contact-section {padding-bottom: 0px;}
+	.form-box form input[type='submit'] {font-size: 15px;}
+}
+
+@media(max-width: 475px){
+	.banner-content h1 {font-size: 38px;}
+}
+
+@media(max-width: 375px){
+	.banner-content h1 {font-size: 30px;}
+	.banner-content p{font-size: 16px;}
+	.btn-download {padding: 8px 10px; margin: 0px 10px 0 0; display: inline;}
+	.btn-featurs {padding: 8px 10px;}
+	.ad-download{padding: 8px 10px; display: inline;}
+	.ad-featurs{padding: 8px 10px;}
+
+	.feature-section:hover span::after, .feature-section:hover span::before {width: 6%;}
+	.feature-section .heading span::before {right: 43.8%;}
+	.feature-section .heading span::after {left: 43.8%;}
+		.feature-content .fa-solid, .feature-content .fa-regular {font-size: 24px; width: 70px; height: 70px; line-height: 70px;}
+
+	.owl-dots {margin-top: 60px;}
+
+	.pricing-section {padding: 40px 0;}
+	.price-table p {font-size: 16px;}
+	.price h2 {font-size: 50px;}
+	.price h2 sup {font-size: 36px;}
+	.pricing-section .btn-featurs {margin: 0px 60px 0 60px;}
+}
+@media(max-width: 320px){
+	.banner-content h1 {font-size: 27px; font-weight: 700;}
+	.banner-content p {font-size: 16px;}
+	.btn-download {padding: 10px 0px; font-size: 14px;}
+	.btn-download{margin: 0px 50px 16px 50px; display: block; padding: 10px; font-size: 14px;}
+	.btn-featurs{margin: 0px 50px 0 50px; display: block; padding: 10px; font-size: 14px;}
+	.feature-section .heading h2, .about-section .about-details h2, .abouts-section .about-details h2, .pricing-section .heading h2 {font-size: 34px; font-weight: 700;}
+
+	.feature-content h4 {font-size: 24px; font-weight: 600;}
+	.feature-content p, .about-details p {font-size: 16px;}
+	.feature-section .heading span {margin-bottom: 21%;}
+	.ad-download{margin: 0px 50px 16px 50px; display: block;}
+	.ad-featurs{margin: 0px 50px 0 50px; display: block; }
+	.about-details span {margin-bottom: 14%;}
+	.testimonial-section .heading h2 {font-size: 30px; font-weight: 700;}
+}
